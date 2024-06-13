@@ -30,13 +30,27 @@ header li {
 }
 
 header ul li a {
-	color: #fff;
+	color: #1eb2a6;
 	font-weight: 500;
+	position: relative; /* Ensure the anchor is positioned relative */
 	transition: color 0.5s ease;
 }
 
-header ul li a:hover {
-	color: #1eb2a6;
+header ul li a::before {
+	content: "";
+	position: absolute;
+	bottom: -2px; /* Adjust as needed for your underline position */
+	left: 50%;
+	width: 0;
+	height: 2px;
+	background-color: #1eb2a6;
+	transition: width 0.3s ease, left 0.3s ease; /* Transition for the underline */
+	/* transform: translateX(-50%); */
+}
+
+header ul li a:hover::before {
+	width: calc(100%); /* Adjust the width as per your design */
+	left: 0px;
 }
 
 .start {

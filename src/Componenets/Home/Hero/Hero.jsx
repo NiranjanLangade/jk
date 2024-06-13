@@ -12,10 +12,8 @@ const Hero = () => {
 							title="Crafting Innovation Beyond Measure"
 						/>
 						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-							Quibusdam molestiae aliquid adipisci, tempora facere sint tenetur
-							id perspiciatis, amet officiis odit quisquam nemo praesentium.
-							Laboriosam, pariatur? Dolore adipisci natus soluta.
+							We are in a business of "Design, Development, Manufacture & Supply
+							of Jigs, Fixtures, Relation gauges & allied spares”
 						</p>
 
 						<div className="button">

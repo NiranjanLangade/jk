@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "./Head";
 import "./Header.css";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 	const [click, setClick] = useState(false);
@@ -12,11 +12,8 @@ const Header = () => {
 		<div>
 			<Head />
 			<header>
-				<nav className="flexSB">
-					<ul
-						className={click ? "mobile-nav" : "flexSB"}
-						onClick={() => setClick(false)}
-					>
+				<nav className={click ? "mobile-nav" : "flexSB"}>
+					<ul className="flexSB" onClick={() => setClick(false)}>
 						<li>
 							<Link to="/">Home</Link>
 						</li>
@@ -46,19 +43,17 @@ const Header = () => {
 							onMouseEnter={() => setDesignDropdown(true)}
 							onMouseLeave={() => setDesignDropdown(false)}
 						>
-							<Link to="/Quality">
-								<Link to="/Design">Quality</Link>
-								{designDropdown && (
-									<ul className="dropdown">
-										<li>
-											<Link to="/Quality/Certification">Certifications</Link>
-										</li>
-										<li>
-											<Link to="/Quality/Instruments">Instruments</Link>
-										</li>
-									</ul>
-								)}
-							</Link>
+							<Link to="/Quality">Quality</Link>
+							{designDropdown && (
+								<ul className="dropdown">
+									<li>
+										<Link to="/Quality/Certification">Certifications</Link>
+									</li>
+									<li>
+										<Link to="/Quality/Instruments">Instruments</Link>
+									</li>
+								</ul>
+							)}
 						</li>
 						<li>
 							<Link to="/Team">Team</Link>
@@ -79,6 +74,7 @@ const Header = () => {
 							<i className="fa-solid fa-arrow-down download"></i>E-Brochure
 						</div>
 					</div>
+
 					<button className="toggle" onClick={() => setClick(!click)}>
 						{click ? (
 							<i className="fa fa-times"></i>
