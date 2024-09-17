@@ -1,0 +1,11 @@
+.about {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 500px; /* or adjust width as needed */
+  }
+
+.about img {
+    max-width: 100% !important; /* Make sure the image scales properly */
+    height: auto !important; /* Preserve aspect ratio */
+  }

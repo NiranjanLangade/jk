@@ -23,19 +23,19 @@ export const homeAbout1 = [
 		id: 2,
 		cover: "./images/Design.png",
 		title: "Design",
-		desc: "lorem anc iubew anicu ernf iosc icbau efno csdicijn bciau efbhc nosda ica cbiaeuf cnadscxib bcuiabsnciseb",
+		desc: "We specialize in designing precise jigs, fixtures, and gauges for aluminum die casting using advanced CAD and CREO skills. Our expertise ensures optimal solutions tailored to die casting processes."
 	},
 	{
 		id: 2,
 		cover: "./images/Manufacturing.png",
 		title: "Manufacture",
-		desc: "lorem anc iubew anicu ernf iosc icbau efno csdicijn bciau efbhc nosda ica cbiaeuf cnadscxib bcuiabsnciseb",
+		desc: "Our state-of-the-art manufacturing facilities, including VMC, CNC, Lathe, M1TR, and Tapping machines, ensure high-quality production with close tolerances. We utilize advanced technologies for precision manufacturing",
 	},
 	{
-		id: 2,
+		id: 3,
 		cover: "./images/quality.png",
 		title: "Quality",
-		desc: "lorem anc iubew anicu ernf iosc icbau efno csdicijn bciau efbhc nosda ica cbiaeuf cnadscxib bcuiabsnciseb",
+		desc: "Quality is paramount in the manufacturing industry. We always implementing stringent quality control measures throughout the design and manufacturing process &amp; ensures that our products meet industry standards and customer requirements.",
 	},
 ];
 export const awrapper = [
@@ -48,13 +48,13 @@ export const awrapper = [
 
 	{
 		cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-		data: "10",
+		data: "14",
 		title: "VMC Machines",
 	},
 	{
 		cover:
 			"https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-		data: "1,000",
+		data: "4",
 		title: "Clients",
 	},
 ];

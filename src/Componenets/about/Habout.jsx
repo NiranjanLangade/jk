@@ -21,7 +21,7 @@ const AboutCard = () => {
 						<div className="items">
 							{homeAbout1.map(val => (
 								<div className="item flexSB">
-									<div className="img">
+									<div className="about">
 										<img src={val.cover} alt="" srcset="" />
 									</div>
 									<div className="text">

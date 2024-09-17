@@ -3,6 +3,7 @@ import Title from "../Common/title/Title";
 import { homeAbout } from "../../dummydata";
 import AWrapper from "./AWrapper";
 import "./about.css";
+import "./aboutCard.css"
 
 const AboutCard = () => {
 	return (
@@ -21,7 +22,7 @@ const AboutCard = () => {
 						<div className="items">
 							{homeAbout.map(val => (
 								<div className="item flexSB">
-									<div className="img">
+									<div className="about">
 										<img src={val.cover} alt="" srcset="" />
 									</div>
 									<div className="text">

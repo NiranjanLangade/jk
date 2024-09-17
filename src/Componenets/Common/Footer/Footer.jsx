@@ -23,8 +23,8 @@ const Footer = () => {
 						<h1>JKPAT</h1>
 						<span>Crafting Innovation beyong measure</span>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Temporibus non repudiandae harum .
+                        We are in a business of &quot;Design, Development, Manufacture
+                        &amp; Supply of Jigs, Fixtures, Relation gauges &amp; allied spares”
 						</p>
 
 						<i className="fab fa-facebook-f icon"></i>
@@ -77,8 +77,7 @@ const Footer = () => {
 						<ul>
 							<li>
 								<i className="fa fa-map"></i>
-								PLOT NO 54, 8, D-II Block, MIDC, Chinchwad, Pune,
-								Pimpri-Chinchwad, Maharashtra 411019
+								PLOT NO 54, 8,MIDC,Pune
 							</li>
 							<li>
 								<i className="fa fa-phone-alt"></i>
