@@ -3,19 +3,19 @@ export const homeAbout = [
 		id: 1,
 		cover: "./images/Mission.png",
 		title: "Mission",
-		desc: "lorem anc iubew anicu ernf iosc icbau efno csdicijn bciau efbhc nosda ica cbiaeuf cnadscxib bcuiabsnciseb",
+		desc: "To provide precision-engineered solutions and superior job work services for aluminum parts, leveraging innovative fixtures ,relation gauges and cutting-edge technology to exceed customer expectations.",
 	},
 	{
 		id: 1,
 		cover: "./images/Vission.png",
 		title: "Vision",
-		desc: "lorem anc iubew anicu ernf iosc icbau efno csdicijn bciau efbhc nosda ica cbiaeuf cnadscxib bcuiabsnciseb",
+		desc: "To be the preferred partner for precision machining, fixture & relation gauges implementation, renowned for our commitment to quality, efficiency, and continuous innovation in the automotive industry.",
 	},
 	{
 		id: 1,
 		cover: "./images/Values.png",
 		title: "Values",
-		desc: "lorem anc iubew anicu ernf iosc icbau efno csdicijn bciau efbhc nosda ica cbiaeuf cnadscxib bcuiabsnciseb",
+		desc: "Our core values are precision, innnovation, customer focus, integrity, teamwork, continuous improvement and sustainability.We embed these values in our processes to drive efficient solutions and deliver impactful results.",
 	},
 ];
 export const homeAbout1 = [
