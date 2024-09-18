@@ -1,7 +1,7 @@
 import React from "react";
 import Back from "../Common/back/Back";
 import DesignCard from "./DesignCard";
-import "./Design.css";
+// import "./Design.css";
 
 const Design = () => {
 	return (

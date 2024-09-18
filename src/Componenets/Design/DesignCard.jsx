@@ -1,6 +1,6 @@
 import React from "react";
 import { design } from "../../dummydata";
-import "./Design.css";
+// import "./Design.css";
 
 const CertificateCard = () => {
 	return (
