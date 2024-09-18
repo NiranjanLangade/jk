@@ -14,6 +14,8 @@ import Manufac from "./Componenets/Manufacturing/Manufac";
 import Career from "./Componenets/Career/Career";
 import Certificate from "./Componenets/Quality/Certification/Certificate.jsx";
 import Software from "./Componenets/Manufacturing/Software/Software.jsx";
+import Machine from "./Componenets/Manufacturing/Machine/Machine.jsx"
+import Instruments from "./Componenets/Quality/Instruments/Instruments.jsx";
 
 function App() {
 	return (
@@ -29,8 +31,10 @@ function App() {
 					<Route path="/Design" exact component={Design} />
 					<Route path="/Quality" exact component={Quality} />
 					<Route path="/Quality/Certification" exact component={Certificate} />
+					<Route path="/Quality/Instruments" exact component={Instruments} />
 					<Route path="/Manufacturing" exact component={Manufac} />
 					<Route path="/Manufacturing/Software" exact component={Software} />
+					<Route path="/Manufacturing/Machine" exact component={Machine} />
 					<Route path="/Careers" exact component={Career} />
 				</Switch>
 			</Router>

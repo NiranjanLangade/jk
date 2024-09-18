@@ -103,23 +103,89 @@ export const team = [
 ];
 export const certificate = [
 	{
-		cover: "/images/c.png",
+		cover: "/images/ISO.png",
 		name: "ISO 9001:2015",
 	},
-	{
-		cover: "/images/c.png",
-		name: "ISO 9001:2015",
-	},
-	{
-		cover: "/images/c.png",
-		name: "ISO 9001:2015",
-	},
+	// {
+	// 	cover: "/images/c.png",
+	// 	name: "ISO 9001:2015",
+	// },
+	// {
+	// 	cover: "/images/c.png",
+	// 	name: "ISO 9001:2015",
+	// },
 ];
 export const software = [
 	{
 		cover: "/images/creo.png",
 		name: "CREO",
-		work: " lorem anc iubew anicu ernf iosc icbau efno csdicijn bciau efbhc nosda ica cbiaeuf cnadscxib bcuiabsnciseb",
+		work: " CREO is a CAD software developed by PTC, used for product design and development, particularly for creating 3D models and simulations.",
+	},
+];
+
+export const instru = [
+	{
+		cover: "/images/i1.png",
+		name: "Relation Gauge",
+	},
+	{
+		cover: "/images/i2.png",
+		name: "Thread Plug Gauge",
+	},
+	{
+		cover: "/images/i3.jpg",
+		name: "Paralisum Dial Gauge",
+	},
+	{
+		cover: "/images/i4.jpg",
+		name: "Depth Vernier Caliper",
+	},
+	{
+		cover: "/images/i5.jpg",
+		name: "Filler Gauge",
+	},
+	{
+		cover: "/images/i6.webp",
+		name: "Snap Gauge",
+	},
+];
+
+export const design = [
+	{
+		cover: "/images/d1.png",
+		name: "Assembly Fextures",
+	},
+	{
+		cover: "/images/d2.png",
+		name: "Break Load Fextures",
+	},
+	{
+		cover: "/images/d3.png",
+		name: "4-Axis Cradle",
+	},
+	{
+		cover: "/images/d4.png",
+		name: "Hydraulic Fixture",
+	},
+	{
+		cover: "/images/d5.png",
+		name: "HMH Fixture",
+	},
+	{
+		cover: "/images/d6.png",
+		name: "CNC Jaws",
+	},
+    {
+		cover: "/images/d7.png",
+		name: "LT Fixture",
+	},
+    {
+		cover: "/images/d8.png",
+		name: "Powder Coating Fixture",
+	},
+    {
+		cover: "/images/d9.png",
+		name: "Relation Gauge",
 	},
 ];
 

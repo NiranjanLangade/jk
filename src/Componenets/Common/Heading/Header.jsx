@@ -55,9 +55,9 @@ const Header = () => {
 								</ul>
 							)}
 						</li>
-						<li>
+						{/* <li>
 							<Link to="/Team">Team</Link>
-						</li>
+						</li> */}
 						<li>
 							<Link to="/News">News & Events</Link>
 						</li>
