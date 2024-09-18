@@ -6,9 +6,10 @@ const Head = () => {
 			<section className="head">
 				<div className="container flexSB">
 					<div className="logo">
-						<a href="/" style={{ color: "#1eb2a6" }}>
-							<h1>JK</h1>
-							<span>Precision and Tools</span>
+
+						<a href="/" style={{ color: "#EB7310" }}>
+                         <h1 >JK Precision and Tools</h1>
+							{/* <span>Precision and Tools</span> */}
 						</a>
 					</div>
 

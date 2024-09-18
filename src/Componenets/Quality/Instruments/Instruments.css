@@ -52,7 +52,7 @@
 }
 
 .design .items:hover {
-	background-color: #1eb2a6;
+	background-color: #EB7310;
 	color: #fff;
 	cursor: pointer;
 }
@@ -66,6 +66,6 @@
 }
 
 .design .items:hover .overlay i:hover {
-	background-color: #1eb2a6;
+	background-color: #EB7310;
 	color: #fff;
 }

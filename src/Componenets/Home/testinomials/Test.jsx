@@ -8,7 +8,7 @@ const Test = () => {
 		<div>
 			<section className="testimonal padding">
 				<div className="container">
-					<Title Subtitle="Core Principles" title="Why JK Precision & Tools" />
+					<Title Subtitle="Core Principles" title="Why JK Precision & Tools ?" />
 					<div className="content grid2">
 						{testimonal.map(val => (
 							<div className="items shadow">

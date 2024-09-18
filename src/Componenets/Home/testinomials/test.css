@@ -17,7 +17,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 60px;
-	background-color: #1eb2a6;
+	background-color: #EB7310;
 	color: #fff;
 }
 
@@ -28,7 +28,7 @@
 }
 
 .testimonal .name span {
-	color: #1eb2a6;
+	color: #EB7310;
 	margin-left: 5px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .testimonal .items:hover {
-	background-color: #1eb2a6;
+	background-color: #EB7310;
 	color: #fff;
 	cursor: pointer;
 }
@@ -50,6 +50,6 @@
 }
 
 .testimonal .items:hover i {
-	color: #1eb2a6;
+	color: #EB7310;
 	background-color: #fff;
 }

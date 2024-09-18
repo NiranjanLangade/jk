@@ -16,14 +16,14 @@
 }
 
 .news h1:hover {
-	color: #1eb2a6;
+	color: #EB7310;
 	cursor: pointer;
 }
 
 .news span {
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #1eb2a6;
+	color: #EB7310;
 }
 
 .news span label {
@@ -33,5 +33,5 @@
 }
 
 .news span:nth-last-child(1) label {
-	color: #1eb2a6;
+	color: #EB7310;
 }
