@@ -42,14 +42,14 @@ export const awrapper = [
 	{
 		cover:
 			"https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-		data: "3,000",
+		data: "60 Lakhs +",
 		title: "Tools Designed",
 	},
 
 	{
 		cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-		data: "14",
-		title: "VMC Machines",
+		data: "500+",
+		title: "Fixtures Designed",
 	},
 	{
 		cover:
@@ -274,23 +274,20 @@ export const blog = [
 export const testimonal = [
 	{
 		id: 1,
-		name: "Niranjan Langade",
-		post: "MD,Bajaj",
-		desc: "Lorem dne iwufn nvia wueo iusa cone hfoi cisnabo efcnhd snicgy uasfu nacsy igdfn",
-		cover: "./images/t.webp",
+		name: "Customization",
+		desc: "Tailored solution to fit specific client requirements",
+		cover: "./images/t1.png",
 	},
 	{
 		id: 2,
-		name: "Niranjan Langade",
-		post: "MD,Bajaj",
-		desc: "Lorem dne iwufn nvia wueo iusa cone hfoi cisnabo efcnhd snicgy uasfu nacsy igdfn.",
-		cover: "./images/t.webp",
+		name: "Experienced Team",
+		desc: "Skilled professionals with extensive industry expertise",
+		cover: "./images/t2.png",
 	},
 	{
 		id: 3,
-		name: "Niranjan Langade",
-		post: "MD,Bajaj",
-		desc: "Lorem dne iwufn nvia wueo iusa cone hfoi cisnabo efcnhd snicgy uasfu nacsy igdfn.",
-		cover: "./images/t.webp",
+		name: "Solution Driven Approach",
+		desc: "Innovative problem-solving to meet unique challenges.",
+		cover: "./images/t3.png",
 	},
 ];

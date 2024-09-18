@@ -10,7 +10,8 @@
 .aboutHome .left img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: fill;
+    padding-bottom: 50px;
 }
 
 .aboutHome .right {

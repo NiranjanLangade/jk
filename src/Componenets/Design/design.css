@@ -8,7 +8,7 @@
 .design img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover; /* Ensure the image covers the container while maintaining its aspect ratio */
+	object-fit: fill; /* Ensure the image covers the container while maintaining its aspect ratio */
 }
 
 .design .items {

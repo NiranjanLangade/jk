@@ -55,12 +55,6 @@ const Header = () => {
 								</ul>
 							)}
 						</li>
-						{/* <li>
-							<Link to="/Team">Team</Link>
-						</li> */}
-						<li>
-							<Link to="/News">News & Events</Link>
-						</li>
 						<li>
 							<Link to="/Careers">Careers</Link>
 						</li>
@@ -70,9 +64,13 @@ const Header = () => {
 					</ul>
 
 					<div className="start">
-						<div className="button">
-							<i className="fa-solid fa-arrow-down download"></i>E-Brochure
-						</div>
+						<a
+							href="/E-Brochure.pdf"
+							download="E-Brochure.pdf"
+							className="button"
+						>
+							<i className="fa-solid fa-arrow-down download"></i> E-Brochure
+						</a>
 					</div>
 
 					<button className="toggle" onClick={() => setClick(!click)}>

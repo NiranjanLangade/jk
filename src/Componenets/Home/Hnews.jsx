@@ -1,44 +1,21 @@
 import React from "react";
+import DCard from "./DCard"
 import Title from "../Common/title/Title";
-import { blog } from "../../dummydata";
+// import "./Design.css";
 
-const Hnews = () => {
+const Design = () => {
 	return (
 		<div>
-			<section className="news">
-				<div className="container">
-					<Title Subtitle="News & Events" title="Recent News" />
-					<div className="grid2">
-						{blog.slice(0, 3).map(val => (
-							<div className="items shadow">
-								<div className="img">
-									<img src={val.cover} alt="" />
-								</div>
-								<div className="text">
-									<div className="admin flexSB">
-										<span>
-											<i className="fa fa-user"></i>
-											<label htmlFor="">{val.type}</label>
-										</span>
-										<span>
-											<i className="fa fa-calendar-alt"></i>
-											<label htmlFor="">{val.date}</label>
-										</span>
-										<span>
-											<i className="fa fa-comments"></i>
-											<label htmlFor="">{val.com}</label>
-										</span>
-									</div>
-									<h1>{val.title}</h1>
-									<p>{val.desc}</p>
-								</div>
-							</div>
-						))}
+			<div>
+            <Title Subtitle="Design" title="Fixtures Desgined at JKPAT" />
+				<section className="design padding">
+					<div className="container grid">
+						<DCard/>
 					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 		</div>
 	);
 };
 
-export default Hnews;
+export default Design;

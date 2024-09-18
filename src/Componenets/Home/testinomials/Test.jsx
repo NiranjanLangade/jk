@@ -8,13 +8,13 @@ const Test = () => {
 		<div>
 			<section className="testimonal padding">
 				<div className="container">
-					<Title Subtitle="Testimonal" title="Our Happy Clients" />
+					<Title Subtitle="Core Principles" title="Why JK Precision & Tools" />
 					<div className="content grid2">
 						{testimonal.map(val => (
 							<div className="items shadow">
 								<div className="box flex">
 									<div className="img">
-										<img src={val.cover} alt="" />
+										<img src={val.cover} alt="" style={{ objectFit: 'fill' }} />
 										<i className="fa fa-quote-left icon"></i>
 									</div>
 									<div className="name">

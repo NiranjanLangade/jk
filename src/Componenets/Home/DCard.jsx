@@ -6,7 +6,7 @@ import { design } from "../../dummydata";
 const DCard = () => {
 	return (
 		<>
-			{design.map((val, index) => (
+			{design.slice(0, 3).map((val, index) => (
 				<div className="items shadow" key={index}>
 					<div className="img">
 						<img src={val.cover} alt={val.name} style={{ objectFit: 'fill' }} />
