@@ -21,17 +21,17 @@ const Contact = () => {
 							<div className="box">
 								<h4>Address</h4>
 								<p>
-									PLOT NO 54, 8, D-II Block, MIDC, Chinchwad, Pune,
-									Pimpri-Chinchwad, Maharashtra 411019
+									SN 341/2, Shop No. 1,2,3, Somatane Phata, Talegoan Dhabhade,
+                                    Pune - 410506
 								</p>
 							</div>
 							<div className="box">
 								<h4>Email :</h4>
-								<p>jkpatpune@gmail.com</p>
+								<p>salesinfo@jkpat.in</p>
 							</div>
 							<div className="box">
 								<h4>Phone :</h4>
-								<p>+91 9561350845</p>
+								<p>02114-239523</p>
 							</div>
 						</div>
 						<form action="">

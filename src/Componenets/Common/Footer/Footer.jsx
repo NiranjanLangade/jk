@@ -77,15 +77,15 @@ const Footer = () => {
 						<ul>
 							<li>
 								<i className="fa fa-map"></i>
-								PLOT NO 54, 8,MIDC,Pune
+								SN 341/2, Talegoan, Pune
 							</li>
 							<li>
 								<i className="fa fa-phone-alt"></i>
-								+91 9561350845
+								02114-239523
 							</li>
 							<li>
 								<i className="fa fa-paper-plane"></i>
-								jkpatpune@gmail.com
+								salesinfo@jkpat.in
 							</li>
 						</ul>
 					</div>

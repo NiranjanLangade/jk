@@ -68,6 +68,7 @@ const Header = () => {
 							href="/E-Brochure.pdf"
 							download="E-Brochure.pdf"
 							className="button"
+                            style={{ color: "white" }}
 						>
 							<i className="fa-solid fa-arrow-down download"></i> E-Brochure
 						</a>
